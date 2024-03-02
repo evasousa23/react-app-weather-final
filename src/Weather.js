@@ -43,7 +43,7 @@ export default function Weather() {
                     <li>Humidity: {Weather.humidity}%</li>
                     <li>Wind: {Weather.wind}Km/h</li>
                     <li>
-                        <img src={Weather.icon} />
+                        <img src={Weather.icon}  all="" />
                     </li>
                 </ul>
             </div>
