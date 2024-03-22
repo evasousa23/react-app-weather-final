@@ -1,0 +1,65 @@
+.WeatherForecast {
+    margin: 0px;
+    margin-top: 5px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: content-box;
+  }
+  
+  .col {
+    flex: 1; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: content-box;
+ 
+  }
+  
+  .col:not(:first-child) {
+    margin-left: 10px; 
+  }
+  
+  .WeatherForecast-day {
+    justify-content: center;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    display: flex;
+    text-decoration: none;
+  }
+  .temp-link {
+    justify-content: center;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    display: flex;
+  
+  }
+ .Icon{
+  display: flex;
+  justify-content: center;
+ }
+  
+  .WeatherForecast-temps {
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+  }
+  
+  .WeatherForecast-mintemp {
+    opacity: 0.6;
+  }
+  
+  .WeatherForecast-day,
+  .Icon,
+  .WeatherForecast-temps span {
+    margin-bottom: 10px;
+  }
+  
+  
+
+  
