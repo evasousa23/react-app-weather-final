@@ -1,33 +1,28 @@
-.App{
-    margin: 0;
+.App {
+  margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  border:1px solid rgb(124 15 91);
+  border: 1px solid rgb(124 15 91);
   border-radius: 10px;
   width: 900px;
   height: auto;
-  
 }
 body {
   background: rgb(211, 209, 209);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  margin: 0;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: rgb(43, 41, 41);
   font-weight: 700;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-  background-position:center;
-  
+  background-position: center;
 }
-
-
- 
