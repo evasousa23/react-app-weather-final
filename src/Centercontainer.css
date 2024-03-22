@@ -1,0 +1,29 @@
+
+.list-group-right{
+    list-style: none;
+    border: none;
+    background-color: transparent;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.list-group-left{
+    list-style: none;
+    padding: 1% 0;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    margin-top: 20px;
+}
+.current-temp{
+    font-size: 35px;
+    align-items: right;
+    text-align: right;
+    padding-top: 10px;
+    
+}
+.temp-links{
+    font-size: 15px;
+    color: rgb(30, 29, 29);
+    text-decoration: none;
+}

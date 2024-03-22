@@ -27,7 +27,7 @@
     justify-content: center;
     font-weight: lighter;
     font-family: 'Times New Roman', Times, serif;
-    color: gray;
+    color: rgb(63, 63, 63);
     display: flex;
     text-decoration: none;
   }
@@ -35,7 +35,7 @@
     justify-content: center;
     font-weight: lighter;
     font-family: 'Times New Roman', Times, serif;
-    color: gray;
+    color: rgb(64, 60, 60);
     display: flex;
   
   }
@@ -51,7 +51,7 @@
   }
   
   .WeatherForecast-mintemp {
-    opacity: 0.6;
+    opacity: 0.4;
   }
   
   .WeatherForecast-day,
